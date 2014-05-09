@@ -10,6 +10,9 @@ public:
 	CRandomAI(char *buffer);
 	~CRandomAI();
 
+	// Calculate the next move
+	void CalculateMove();
+
 	// Get the results
 	void GetBoard(char *buffer);
 
